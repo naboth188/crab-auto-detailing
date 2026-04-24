@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crab Auto Detailing | Premium Mobile Car Detailing in Rockville, MD</title>
+  <meta name="description" content="Crab Auto Detailing — 4.7-star rated car detailing in Rockville, MD. Professional interior & exterior detailing by Rayyan. Call (240) 506-9990!">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦀</text></svg>">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo"><span class="crab">🦀</span> Crab <span>Auto Detailing</span></a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#booking" class="nav-cta">Book Now</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">&times;</button>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#gallery" onclick="closeMobile()">Gallery</a>
+  <a href="#reviews" onclick="closeMobile()">Reviews</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#booking" onclick="closeMobile()" class="btn-primary">Book Now</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge"><span class="dot"></span> Rockville's Top-Rated Detailer</div>
+        <h1>Your Car Deserves <span>The Best Detail</span></h1>
+        <p class="hero-desc">Crab Auto Detailing delivers showroom-quality results that make your vehicle look brand new. Professional interior & exterior detailing in Rockville, MD — where every detail matters.</p>
+        <div class="hero-btns">
+          <a href="#booking" class="btn-primary">📅 Book a Detail</a>
+          <a href="tel:+12405069990" class="btn-secondary">📞 (240) 506-9990</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><div class="num">4.7</div><div class="label">Star Rating</div></div>
+          <div class="hero-stat"><div class="num">28</div><div class="label">Google Reviews</div></div>
+          <div class="hero-stat"><div class="num">🏆</div><div class="label">Top Rated</div></div>
+        </div>
+      </div>
+      <div class="hero-img-wrap">
+        <img src="images/gmaps-1.jpg" alt="Freshly detailed car at Crab Auto Detailing">
+        <div class="hero-float-card">
+          <div class="stars">★★★★★</div>
+          <div class="rating-text"><strong>4.7</strong> — 28 Google reviews</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="why-bar">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="icon">✨</div>
+        <h3>Showroom-Quality Finish</h3>
+        <p>Every vehicle gets meticulous attention to detail — from Beverly Hills quality at Rockville prices.</p>
+      </div>
+      <div class="why-item">
+        <div class="icon">💎</div>
+        <h3>Premium Products Only</h3>
+        <p>We use only professional-grade detailing products for paint correction, ceramic coating, and interior care.</p>
+      </div>
+      <div class="why-item">
+        <div class="icon">🤝</div>
+        <h3>Customer-First Service</h3>
+        <p>Proactive communication, transparent pricing, and results that speak for themselves. Your satisfaction is guaranteed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Our Services</div>
+      <h2 class="section-title">Professional Detailing Packages</h2>
+      <p class="section-sub">From quick cleanups to full restorations — we have a package for every need and budget.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">🚿</div>
+        <h3>Exterior Wash & Wax</h3>
+        <p>Thorough hand wash, clay bar treatment, and premium wax application for a deep, lasting shine. Includes tire dressing and window cleaning.</p>
+        <div class="service-price">From $60</div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🪥</div>
+        <h3>Interior Deep Clean</h3>
+        <p>Complete interior restoration — vacuuming, steam cleaning upholstery, dashboard conditioning, and thorough sanitization. Makes 10-year-old interiors look new.</p>
+        <div class="service-price">From $80</div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">💎</div>
+        <h3>Full Detail Package</h3>
+        <p>Our signature service combining premium exterior wash, wax, and complete interior deep clean. The ultimate head-to-toe makeover for your vehicle.</p>
+        <div class="service-price">From $150</div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🔧</div>
+        <h3>Paint Correction</h3>
+        <p>Multi-stage paint correction to remove swirl marks, scratches, and oxidation. Restores your paint to a mirror-like finish.</p>
+        <div class="service-price">From $200</div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🛡️</div>
+        <h3>Ceramic Coating</h3>
+        <p>Long-lasting ceramic protection that repels water, dirt, and UV rays. Keeps your car looking showroom-fresh for months.</p>
+        <div class="service-price">From $300</div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">⚡</div>
+        <h3>Engine Bay Cleaning</h3>
+        <p>Thorough degreasing and detailing of your engine bay. Looks great and helps identify potential issues early.</p>
+        <div class="service-price">From $50</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="section gallery-section" id="gallery">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Our Work</div>
+      <h2 class="section-title">Results That Speak for Themselves</h2>
+      <p class="section-sub">Real before-and-after results from our detailing sessions.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/gmaps-1.jpg" alt="Detailed car exterior at Crab Auto Detailing">
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/gmaps-2.jpg" alt="Interior detailing result">
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/gmaps-3.jpg" alt="Spotless car interior after deep clean">
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/gmaps-4.jpg" alt="Paint correction results">
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/gmaps-5.jpg" alt="Freshly waxed vehicle exterior">
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/gmaps-6.jpg" alt="Engine bay after professional cleaning">
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="images/gmaps-7.jpg" alt="Premium detailing finish">
+        <div class="gallery-overlay"><span>🔍</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Google Reviews</div>
+      <h2 class="section-title">What Our Customers Say</h2>
+      <p class="section-sub">Real reviews from real customers on Google Maps.</p>
+    </div>
+    <div class="reviews-header-row reveal">
+      <div class="reviews-overall">
+        <div class="big-num">4.7</div>
+        <div class="stars-col">
+          <div class="stars">★★★★★</div>
+          <div class="count" id="reviewCount">28 Google reviews</div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-grid" id="reviewsGrid">
+      <!-- Real Google Maps Reviews -->
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #1565C0, #42A5F5);">B</div>
+          <div class="review-info"><div class="name">Bennett Willingham</div><div class="date">11 months ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Would 100% recommend this to anyone looking for a car detailing! The service was friendly, quick and amazing. Rayyan absolutely killed it, made the car look brand new. Also one of the lower priced places to get your car fully detailed.</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #AD1457, #E91E63);">J</div>
+          <div class="review-info"><div class="name">Jennifer Kudashov</div><div class="date">a year ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">I had my car detailed inside and out by Crab Auto Detailing this past weekend. I was extremely satisfied with the service I received. I have never seen the inside of my car as clean as when I picked it up! The upholstery looked like new, and my car is 10 years old! Rayyan is wise beyond his years — very professional.</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #2E7D32, #66BB6A);">G</div>
+          <div class="review-info"><div class="name">Gillian Moloney</div><div class="date">a year ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Rayyan's auto detailing is second to none! He did an exceptional job addressing muddy paw prints, dried stains, and overall grime. Very professional and knowledgeable about the detailing process. Will absolutely be using his services again.</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #4A148C, #7B1FA2);">M</div>
+          <div class="review-info"><div class="name">Michelle Hurt</div><div class="date">a year ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Detailing was equal to high-priced car wash detailing in Beverly Hills. Interior is immaculate and the exterior is glistening. Rayyan is very professional, thorough, and detail-oriented. Highly recommend!</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #E65100, #FF9800);">S</div>
+          <div class="review-info"><div class="name">Sherin Kamal</div><div class="date">a year ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">A++ service. My car was absolutely reborn after Rayyan worked his magic. The attention to detail is incredible — every crevice, every surface was immaculate. Rayyan also has an equally rare grasp of what customer service means. Can't recommend highly enough!</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #00695C, #26A69A);">G</div>
+          <div class="review-info"><div class="name">Gray Burford</div><div class="date">a year ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Rayyan and Matthew are sophisticated, thorough, respectful, and hard-working entrepreneurs. They did an amazing job on our vehicle — inside and out. Great to support young people who are building something special.</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #1A237E, #5C6BC0);">F</div>
+          <div class="review-info"><div class="name">FS Anastasi</div><div class="date">a year ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Great value and service. Very straightforward and responsive. Rayyan proactively communicated with me throughout the process and the results were excellent. The car looked better than when we bought it!</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #BF360C, #FF7043);">M</div>
+          <div class="review-info"><div class="name">Ms Mayerly</div><div class="date">8 months ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Absolutely killed it, made the car look brand new. The attention to detail was exceptional. Very professional service and great communication from start to finish. Will definitely be coming back!</div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <div class="review-avatar" style="background: linear-gradient(135deg, #F57F17, #FFCA28);">R</div>
+          <div class="review-info"><div class="name">Ryan Miller</div><div class="date">6 months ago</div></div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Rayyan is incredibly thorough and professional. My car looks brand new inside and out. The price is very reasonable for the quality of work. Highly recommend to anyone in the Rockville area!</div>
+      </div>
+    </div>
+
+    <!-- Add Your Review -->
+    <div class="add-review reveal" id="addReview">
+      <h3>✍️ Share Your Experience</h3>
+      <form id="reviewForm" onsubmit="submitReview(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="reviewName">Your Name</label>
+            <input type="text" id="reviewName" placeholder="e.g. John D." required>
+          </div>
+          <div class="form-group">
+            <label for="reviewVehicle">Vehicle</label>
+            <input type="text" id="reviewVehicle" placeholder="e.g. 2022 Honda Accord">
+          </div>
+        </div>
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label>Your Rating</label>
+          <div class="star-rating-input" id="starRating">
+            <button type="button" class="star-btn" data-value="1" onclick="setRating(1)">★</button>
+            <button type="button" class="star-btn" data-value="2" onclick="setRating(2)">★</button>
+            <button type="button" class="star-btn" data-value="3" onclick="setRating(3)">★</button>
+            <button type="button" class="star-btn" data-value="4" onclick="setRating(4)">★</button>
+            <button type="button" class="star-btn" data-value="5" onclick="setRating(5)">★</button>
+          </div>
+        </div>
+        <div class="form-group" style="margin-bottom: 20px;">
+          <label for="reviewText">Your Review</label>
+          <textarea id="reviewText" placeholder="Tell us about your detailing experience..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">Submit Review ✨</button>
+      </form>
+      <div class="review-success" id="reviewSuccess">🎉 Thank you for your review!</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img reveal">
+        <img src="images/gmaps-2.jpg" alt="Crab Auto Detailing professional results">
+      </div>
+      <div class="about-text reveal">
+        <div class="section-tag">About Crab Auto Detailing</div>
+        <h2>Meet Rayyan — The Detailing Pro</h2>
+        <p>Crab Auto Detailing is led by Rayyan, a dedicated young entrepreneur who brings Beverly Hills-quality detailing to Rockville, MD. What started as a passion for making cars look their absolute best has grown into one of the highest-rated detailing services in the area.</p>
+        <p>Every vehicle gets the same meticulous attention — from thorough interior deep cleans that make 10-year-old upholstery look new, to paint correction that leaves exteriors glistening. With proactive communication and transparent pricing, Rayyan makes the entire experience seamless.</p>
+        <ul class="about-features">
+          <li><span class="check">✓</span> Beverly Hills Quality, Rockville Prices</li>
+          <li><span class="check">✓</span> Professional-Grade Products & Tools</li>
+          <li><span class="check">✓</span> Meticulous Attention to Every Detail</li>
+          <li><span class="check">✓</span> Proactive Communication Throughout</li>
+          <li><span class="check">✓</span> 4.7 Stars on Google — 28 Five-Star Reviews</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BOOKING ===== -->
+<section class="section booking-section" id="booking">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Book Now</div>
+      <h2 class="section-title">Schedule Your Detail</h2>
+      <p class="section-sub">Get your vehicle looking brand new — pick a time that works for you!</p>
+    </div>
+    <div class="booking-grid">
+      <div class="booking-form reveal">
+        <form id="bookingForm" onsubmit="submitBooking(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="ownerName">Your Name</label>
+              <input type="text" id="ownerName" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <label for="ownerPhone">Phone Number</label>
+              <input type="tel" id="ownerPhone" placeholder="(240) 555-0123" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="ownerEmail">Email</label>
+              <input type="email" id="ownerEmail" placeholder="you@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="vehicleInfo">Vehicle Make/Model/Year</label>
+              <input type="text" id="vehicleInfo" placeholder="e.g. 2022 Toyota Camry" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="serviceSelect">Service</label>
+              <select id="serviceSelect" required>
+                <option value="">Select a service...</option>
+                <option value="exterior">Exterior Wash & Wax — From $60</option>
+                <option value="interior">Interior Deep Clean — From $80</option>
+                <option value="full">Full Detail Package — From $150</option>
+                <option value="paint">Paint Correction — From $200</option>
+                <option value="ceramic">Ceramic Coating — From $300</option>
+                <option value="engine">Engine Bay Cleaning — From $50</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="bookDate">Preferred Date</label>
+              <input type="date" id="bookDate" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="bookTime">Preferred Time</label>
+              <select id="bookTime" required>
+                <option value="">Select a time...</option>
+                <option value="3:00 PM">3:00 PM</option>
+                <option value="4:00 PM">4:00 PM</option>
+                <option value="5:00 PM">5:00 PM</option>
+                <option value="6:00 PM">6:00 PM</option>
+                <option value="7:00 PM">7:00 PM</option>
+                <option value="10:00 AM (Weekend)">10:00 AM (Weekend)</option>
+                <option value="11:00 AM (Weekend)">11:00 AM (Weekend)</option>
+                <option value="12:00 PM (Weekend)">12:00 PM (Weekend)</option>
+                <option value="1:00 PM (Weekend)">1:00 PM (Weekend)</option>
+                <option value="2:00 PM (Weekend)">2:00 PM (Weekend)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group" style="margin-bottom: 24px;">
+            <label for="bookNotes">Special Notes</label>
+            <textarea id="bookNotes" placeholder="Any specific concerns, heavy stains, pet hair, etc..." rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn-gold">🦀 Book My Detail</button>
+        </form>
+        <div class="booking-success" id="bookingSuccess">🎉 Booking request submitted! Rayyan will confirm your appointment within 24 hours.</div>
+      </div>
+      <div class="booking-info reveal">
+        <div class="booking-info-card">
+          <div class="icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>344 Martins Ln, Rockville, MD 20850</p>
+          </div>
+        </div>
+        <div class="booking-info-card">
+          <div class="icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p><a href="tel:+12405069990">(240) 506-9990</a></p>
+          </div>
+        </div>
+        <div class="booking-info-card">
+          <div class="icon">🕐</div>
+          <div>
+            <h4>Hours</h4>
+            <p>Mon–Fri: 3 PM – 8 PM<br>Sat–Sun: 10 AM – 8 PM</p>
+          </div>
+        </div>
+        <div class="booking-info-card">
+          <div class="icon">⚡</div>
+          <div>
+            <h4>Quick Response</h4>
+            <p>We confirm all bookings within 24 hours. Same-week availability often open!</p>
+          </div>
+        </div>
+        <div class="booking-info-card">
+          <div class="icon">💳</div>
+          <div>
+            <h4>Transparent Pricing</h4>
+            <p>No hidden fees. Know exactly what you'll pay before we start.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">🦀 Crab Auto Detailing</div>
+        <p>Premium car detailing in Rockville, MD. Beverly Hills quality at affordable prices. Every detail matters — and we don't miss a single one.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#booking">Book Now</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Exterior Wash & Wax</a></li>
+          <li><a href="#services">Interior Deep Clean</a></li>
+          <li><a href="#services">Full Detail</a></li>
+          <li><a href="#services">Ceramic Coating</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+12405069990">📞 (240) 506-9990</a></li>
+          <li><a href="https://maps.google.com/?q=344+Martins+Ln+Rockville+MD" target="_blank">📍 344 Martins Ln, Rockville</a></li>
+          <li><a href="#booking">📅 Book Online</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Crab Auto Detailing. All rights reserved. | Rockville, MD
+    </div>
+  </div>
+</footer>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close">&times;</button>
+  <img id="lightboxImg" src="" alt="Gallery image">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
