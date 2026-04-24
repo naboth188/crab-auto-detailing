@@ -276,7 +276,7 @@ body {
 
 /* ===== GALLERY ===== */
 .gallery-section { background: var(--surface); }
-.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 900px; margin: 0 auto; }
 .gallery-item {
   position: relative; border-radius: var(--radius-sm);
   overflow: hidden; cursor: pointer;
